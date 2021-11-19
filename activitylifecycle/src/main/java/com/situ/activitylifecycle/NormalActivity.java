@@ -3,11 +3,11 @@ package com.situ.activitylifecycle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class FirstActivity extends AppCompatActivity {
+public class NormalActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first);
+        setContentView(R.layout.activity_normal);
     }
 }

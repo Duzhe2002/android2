@@ -13,4 +13,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/normalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正常Activity"
+        android:layout_below="@+id/text"/>
+
+    <Button
+        android:id="@+id/dialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="对话框Activity"
+        android:layout_below="@+id/normalButton"/>
+
 </RelativeLayout>
